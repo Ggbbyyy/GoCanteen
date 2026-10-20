@@ -152,7 +152,7 @@ function renderMenu() {
     // Tombol Tambah ke Pesanan
     htmlKonten += `
       <button type="button" class="btn-tambah" onclick="tambahKeKeranjang('${item.id}')">
-        <span>+</span> Tambah ke Pesanan
+        <span>➕</span> Tambah ke Pesanan
       </button>
     `;
 
